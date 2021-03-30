@@ -1,0 +1,62 @@
+.expertise {
+    padding: 71px 0 101px 0;
+
+    &_subtitle {
+        opacity: 0.75;
+        margin-top: 16px;
+        text-align: center;
+        color: #2f2d35;
+        letter-spacing: 1;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    hr {
+        margin-top: 18px;
+        width: 50px;
+        height: 2px;
+        background-color: #413d4b;
+        opacity: 0.3;
+    }
+
+    &_wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    &_block {
+        &-ml{
+            margin-left: 20px;
+        }
+    }
+   
+
+    &-label {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    &_name {
+        margin-top: 18px;
+        color: #413d4b;
+        font-family: "Roboto - Black";
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &_descr {
+        margin-top: 17px;
+        opacity: 0.75;
+        color: #333333;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+}

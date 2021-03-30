@@ -1,0 +1,67 @@
+.header {
+    background: url(../../img/bg/head_bg.png) center (center / cover) no-repeat;
+    min-height: 670px;
+    padding: 15px 0 70px 0;
+
+    &_wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &_logo {
+
+        &-text {
+            margin-left: -25px;
+            background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+            background-clip: text;
+            color: #4aa3cc;
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+
+    &_navbar {
+
+        a {
+            margin-left: 25px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 0.33px;
+            text-decoration: none;
+
+            &:hover {
+                color: #00e0d0
+            }
+        }
+    }
+
+    &_title {
+        margin-top: 163px;
+        color: #ffffff;
+        font-family: "Playfair Display - Black";
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    hr {
+        margin-top: 21px;
+        width: 50px;
+        height: 1px;
+        background-color: #00e0d0;
+    }
+
+    &_text {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+
+}

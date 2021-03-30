@@ -1,0 +1,20 @@
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/story';
+@import 'blocks/watch';
+@import 'blocks/expertise';
+@import 'blocks/titles';
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 940px;
+    display: block;
+    margin: 0 auto;
+}
